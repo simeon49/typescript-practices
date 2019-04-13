@@ -1,0 +1,1 @@
+{"version":3,"file":"system-config.js","sourceRoot":"","sources":["../app/system-config.ts"],"names":[],"mappings":";AAEA,MAAM,CAAC,MAAM,CAAC;IACV,KAAK,EAAE;QACH,MAAM,EAAE,eAAe;KAC1B;IACD,GAAG,EAAE;QACD,KAAK,EAAE,IAAI;QACX,QAAQ,EAAE,sBAAsB;KACnC;IACD,QAAQ,EAAE;QACN,KAAK,EAAE;YACH,IAAI,EAAE,WAAW;YACjB,gBAAgB,EAAE,IAAI;SACzB;KACJ;CACJ,CAAC,CAAC"}

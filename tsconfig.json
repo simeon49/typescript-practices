@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",    // es2015
+        "experimentalDecorators": true,     // 开启实验性新特性
+        "emitDecoratorMetadata": true,      // 开启带有装饰器的声明生成元数据
+        "outDir": "out"
+    },
+
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

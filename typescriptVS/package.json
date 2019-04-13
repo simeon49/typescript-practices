@@ -1,0 +1,24 @@
+{
+  "name": "typescript-vs",
+  "version": "1.0.0",
+  "description": "hi",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "tsc -p ./tsconfig.json && concurrently \"tsc -w\" \"lite-server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simeon",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^2.5.1",
+    "lodash": "^4.17.4",
+    "systemjs": "^0.20.19"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.77",
+    "@types/node": "^8.0.34",
+    "concurrently": "^3.5.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.5.3"
+  }
+}

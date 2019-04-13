@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"> </script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script>
+        System.import('system-config.js').then(() => {
+            System.import('app');
+        }).catch(console.error.bind(console));
+    </script>
+
+    <title>Test for typeScript</title>
+</head>
+<body>
+    <form action="#">
+        <input id="hlc-input" type="text">
+        <button id="hlc-btn-process">Process</button>
+        <hr>
+        <div id="hlc-output"></div>
+    </form>
+</body>
+</html>
